@@ -123,11 +123,24 @@ Kodi is a free and open-source home theater software that allows users to play a
   </tr>
 </table>
 
+## Transferring Files Through SSH
+You can send your movie files from your local computer to your Raspberry Pi through SSH. Here is an example:
+
+1. Open a terminal on your local machine.
+2. Use the following `scp` command to transfer a file:
+   ```sh
+   scp /path/to/your/moviefile.mp4 root@<IP_ADDRESS>:/storage/movies/
+   ```
+3. Replace /path/to/your/moviefile.mp4 with the path to your movie file on your local machine, <IP_ADDRESS> with the IP address of your Raspberry Pi, and /storage/movies/ with the directory on your Raspberry Pi where you want to store the movies.
+4. After transferring the files, follow the steps below to add the directory as a source in Kodi.
+
+
 ## Add Local Movies Folder
 1. Navigate to **Videos** > **Files**.
 2. Select **Add videos...**.
 3. Browse to the directory where your movies are stored and add it as a source.
 4. Name the source and set the content type to **Movies**.
+![movies](https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/Movies.jpg)
 
 ## Add Local Songs Folder
 1. Navigate to **Music** > **Files**.
@@ -140,11 +153,13 @@ Kodi is a free and open-source home theater software that allows users to play a
 2. Select **Add pictures...**.
 3. Browse to the directory where your pictures are stored and add it as a source.
 4. Name the source.
+![pics](https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/Pics.jpg)
 
 ## Setup Weather Display
 1. Navigate to **Settings** > **Add-ons** > **Install from repository** > **Weather**.
-2. Select a weather add-on (e.g., **Yahoo! Weather**) and install it.
+2. Select a weather add-on (My case I used **Gismeteo**) and install it.
 3. Configure the weather add-on with your location.
+![weather](https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/weather.jpg?raw=true)
 
 ## Setup YouTube
 1. Navigate to **Add-ons** > **Install from repository** > **Video add-ons**.

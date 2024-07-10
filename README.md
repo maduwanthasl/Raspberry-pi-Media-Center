@@ -2,6 +2,9 @@
 
 This project sets up a media center on a Raspberry Pi using LibreELEC. The media center supports various functionalities including PVR TV, gaming, local media playback, and more. This setup can transform your old TV into a smart TV with access to global TV channels (more than 10,000 channels), YouTube, gaming, weather overview, new movies, songs, and everything you need for an enhanced media experience.
 
+![Movies](https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/Movies%202.jpg?raw=true)
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Requirements and Components Needed](#requirements-and-components-needed)
@@ -42,6 +45,8 @@ Kodi is a free and open-source home theater software that allows users to play a
 
 2. **Insert MicroSD Card and Boot:**
    - Insert the MicroSD card into your Raspberry Pi and connect it to your TV or monitor using the HDMI cable. Power up the Raspberry Pi. This will take a while.
+  
+![Rpi medai center](https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/Rpi%20media%20center%201.jpg)
 
 3. **Initial Setup:**
    - Follow the on-screen instructions to complete the initial setup, including network configuration. If you want to access your Raspberry Pi using SSH, enable SSH and SAMBA.

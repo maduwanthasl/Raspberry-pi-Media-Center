@@ -88,22 +88,40 @@ Kodi is a free and open-source home theater software that allows users to play a
    - Go to **Add-ons** > **My add-ons** > **PVR clients** > **PVR IPTV Simple Client** > **Configure**.
    - Under **General**, set the **M3U Playlist URL** to your IPTV provider's URL.
    - You can find url using [this repo.](https://github.com/iptv-org/iptv)
+
+#### My TV setup
+![tv](https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/TV.jpg)
      
-##  Setup for Gaming
+## Setup for Gaming
+
 ### RetroArch
 1. Install the **RetroArch** add-on:
    - Navigate to **Add-ons** > **Install from repository** > **Program add-ons** > **RetroArch** and install it.
 2. Download and install the desired game ROMs.
 3. Configure controllers and enjoy gaming on your media center.
 
-### RetroArch
-1. Download [this repo](https://github.com/zach-morris/plugin.program.iagl) in your downloads folder.
-2. Type following.
-```
-https://github.com/zach-morris/plugin.program.iagl
-```
-3. Download and install the desired game ROMs.
+### IAGL
+1. Download [this repo](https://github.com/zach-morris/plugin.program.iagl) to your downloads folder.
+2. Transfer the downloaded ZIP file to your Raspberry Pi:
+   ```sh
+   scp Downloads/<Downloaded zip name> root@<IP ADDR>:
+   ```
+3. Navigate to Add-ons > Install from zip file > Choose your copied zip (above downloaded repo name) and install it.
 4. Configure controllers and enjoy gaming on your media center.
+
+#### Added Contra Game
+<table>
+  <tr>
+    <td align="center">
+      <strong>Load Game</strong><br>
+      <img src="https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/Games.jpg" alt="top" style="max-width:100%;">
+    </td>
+    <td align="center">
+      <strong>2nd Mission</strong><br>
+      <img src="https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/Contra.jpg" alt="bottom" style="max-width:100%;">
+    </td>
+  </tr>
+</table>
 
 ## Add Local Movies Folder
 1. Navigate to **Videos** > **Files**.

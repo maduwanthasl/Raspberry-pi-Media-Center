@@ -37,19 +37,17 @@ Kodi is a free and open-source home theater software that allows users to play a
 ## Setup Raspberry Pi for LibreELEC OS
 ### My Setup
 1. **Download LibreELEC:**
-   - Visit [LibreELEC Downloads](https://libreelec.tv/downloads/) and download the appropriate version for your Raspberry Pi.
+   - Visit [LibreELEC Downloads](https://libreelec.tv/downloads/) and download the appropriate version for your Raspberry Pi. You can also do this using [Raspberry Pi Imager.](https://www.raspberrypi.com/software/)
 
-2. **Flash LibreELEC to MicroSD Card:**
-   - Use a tool like [Balena Etcher](https://www.balena.io/etcher/) to flash the downloaded image to your MicroSD card.
+2. **Insert MicroSD Card and Boot:**
+   - Insert the MicroSD card into your Raspberry Pi and connect it to your TV or monitor using the HDMI cable. Power up the Raspberry Pi. This will take a while.
 
-3. **Insert MicroSD Card and Boot:**
-   - Insert the MicroSD card into your Raspberry Pi and connect it to your TV or monitor using the HDMI cable. Power up the Raspberry Pi.
+3. **Initial Setup:**
+   - Follow the on-screen instructions to complete the initial setup, including network configuration. If you want to access your Raspberry Pi using SSH, enable SSH and SAMBA.
 
-4. **Initial Setup:**
-   - Follow the on-screen instructions to complete the initial setup, including network configuration.
-
-5. **Accessing LibreELEC:**
+4. **Accessing LibreELEC:**
    - Once setup is complete, you can access LibreELEC through the TV interface or via SSH for advanced configurations.
+
 
 ## Setup New Skins
 1. Navigate to **Settings** > **Interface** > **Skin**.

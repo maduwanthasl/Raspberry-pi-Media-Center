@@ -74,7 +74,7 @@ Kodi is a free and open-source home theater software that allows users to play a
 ## Setup New Skins
 1. Navigate to **Settings** > **Interface** > **Skin**.
 2. Select **Get more...** to browse and install new skins.
-3. Choose and apply your preferred skin.
+3. Choose and apply your preferred skin. My preference is **QUARTZ**.
 
 ## Setup PVR TV (IPTV Simple Client)
 1. Navigate to **Add-ons** > **Install from repository** > **PVR clients**.

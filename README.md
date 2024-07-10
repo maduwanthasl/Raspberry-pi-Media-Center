@@ -82,12 +82,23 @@ Kodi is a free and open-source home theater software that allows users to play a
 3. Configure the PVR IPTV Simple Client with your IPTV m3u playlist URL:
    - Go to **Add-ons** > **My add-ons** > **PVR clients** > **PVR IPTV Simple Client** > **Configure**.
    - Under **General**, set the **M3U Playlist URL** to your IPTV provider's URL.
-
-## Setup for Gaming
+   - You can find url using [this repo.](https://github.com/iptv-org/iptv)
+     
+##  Setup for Gaming
+### RetroArch
 1. Install the **RetroArch** add-on:
    - Navigate to **Add-ons** > **Install from repository** > **Program add-ons** > **RetroArch** and install it.
 2. Download and install the desired game ROMs.
 3. Configure controllers and enjoy gaming on your media center.
+
+### RetroArch
+1. Download [this repo](https://github.com/zach-morris/plugin.program.iagl) in your downloads folder.
+2. Type following.
+```
+https://github.com/zach-morris/plugin.program.iagl
+```
+3. Download and install the desired game ROMs.
+4. Configure controllers and enjoy gaming on your media center.
 
 ## Add Local Movies Folder
 1. Navigate to **Videos** > **Files**.

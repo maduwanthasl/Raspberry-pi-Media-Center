@@ -34,6 +34,7 @@ Kodi is a free and open-source home theater software that allows users to play a
 - External storage (optional, for additional media storage)
 - Joystick (need to play games)
 
+
 ## Setup Raspberry Pi for LibreELEC OS
 ### My Setup
 1. **Download LibreELEC:**
@@ -45,8 +46,29 @@ Kodi is a free and open-source home theater software that allows users to play a
 3. **Initial Setup:**
    - Follow the on-screen instructions to complete the initial setup, including network configuration. If you want to access your Raspberry Pi using SSH, enable SSH and SAMBA.
 
-4. **Accessing LibreELEC:**
-   - Once setup is complete, you can access LibreELEC through the TV interface or via SSH for advanced configurations.
+4. **SSH Configuration:**
+   - To enable SSH, navigate to **Settings** > **LibreELEC** > **Services** and toggle the **Enable SSH** option. Make a note of the IP address shown in the network settings.
+
+5. **Accessing LibreELEC via SSH:**
+   - Open a terminal on your local machine and use the following command to access LibreELEC via SSH:
+     ```sh
+     ssh root@<IP_ADDRESS>
+     ```
+     Replace `<IP_ADDRESS>` with the IP address of your Raspberry Pi. The default password is `libreelec`.
+
+6. **Accessing Files on LibreELEC:**
+   - You can access and transfer files to LibreELEC using SFTP. Use a file transfer client like FileZilla or WinSCP and connect to your Raspberry Pi using the following settings:
+     - Host: `<IP_ADDRESS>`
+     - Username: `root`
+     - Password: `libreelec`
+     - Port: `22`
+
+   - You can also access shared folders using SAMBA:
+     - On your local machine, open a file explorer and enter the following address:
+       ```
+       \\<IP_ADDRESS>\storage
+       ```
+     - Replace `<IP_ADDRESS>` with the IP address of your Raspberry Pi. This will allow you to browse and manage files in the storage directory.
 
 
 ## Setup New Skins

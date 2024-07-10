@@ -178,6 +178,21 @@ You can send your movie files from your local computer to your Raspberry Pi thro
 | Local Media Support             | Varies                           | Excellent                     |
 | PVR and IPTV                    | Limited                          | Full support                  |
 
+
+#### Some other images
+<table>
+  <tr>
+    <td align="center">
+      <strong>Tv series</strong><br>
+      <img src="https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/TV%20series.jpg" alt="top" style="max-width:100%;">
+    </td>
+    <td align="center">
+      <strong>System</strong><br>
+      <img src="https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/system.jpg" alt="bottom" style="max-width:100%;">
+    </td>
+  </tr>
+</table>
+
 ## Conclusion
 
 Using the methods outlined above, you can turn your old TV into a smart TV with a wide range of facilities. Note that the above instructions cover only a small portion of the available features. You can explore and use many other functionalities to customize your media center according to your preferences. Enjoy your enhanced media experience!

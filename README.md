@@ -25,13 +25,14 @@ Kodi is a free and open-source home theater software that allows users to play a
 
 
 ## Requirements and Components Needed
-- Raspberry Pi (any model)
+- Raspberry Pi (My case it is Rpi 4B 2GB version)
 - MicroSD card (8GB or larger)
 - Power supply for Raspberry Pi
 - HDMI cable
 - Internet connection (Ethernet or Wi-Fi)
 - USB keyboard and mouse (optional, for initial setup)
 - External storage (optional, for additional media storage)
+- Joystick (need to play games)
 
 ## Setup Raspberry Pi for LibreELEC OS
 ### My Setup

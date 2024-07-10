@@ -165,6 +165,7 @@ You can send your movie files from your local computer to your Raspberry Pi thro
 1. Navigate to **Add-ons** > **Install from repository** > **Video add-ons**.
 2. Select **YouTube** and install it.
 3. Follow the on-screen instructions to log in and set up your YouTube account.
+![youtube](https://github.com/maduwanthasl/Raspberry-pi-Media-Center/blob/main/Images/addons.jpg)
 
 ## Comparison Between Smart TV and Smart TV Using Raspberry Pi
 | Feature                         | Smart TV                         | Raspberry Pi Media Center     |
